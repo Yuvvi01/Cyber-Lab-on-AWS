@@ -1,7 +1,5 @@
 # Overview
-Purple Team Cloud Lab is a cloud-based AD lab created to help you test real attacks in a controlled environment and create detection rules for them. It was originally created for MalTrak training: "In-depth Investigation & Threat Hunting" and now we decided to make it open-source and available for everyone.
-
-This lab is build on AWS and it includes an active directory domain consists of a DC and a workstation both are Windows Server 2019 with sysmon and winlogbeat installed. Winlogbeat transfers these logs to the blueteam network that includes Threat Hunting ELK (HELK) to monitor the events happening in the domain and help you investigate the attacks and write the detection rules for them.
+Purple Team Cloud Lab is a cloud-based AD lab created to help you test real attacks in a controlled environment and create detection rules for them. This lab is build on AWS and it includes an active directory domain consists of a DC and a workstation both are Windows Server 2019 with sysmon and winlogbeat installed. Winlogbeat transfers these logs to the blueteam network that includes Threat Hunting ELK (HELK) to monitor the events happening in the domain and help you investigate the attacks and write the detection rules for them.
 
 As well, you have a red team network with Caldera installed to simulate red teaming activites and different MITRE ATT&CK techniques. Alternatively, you have Atomic Red Team installed on both the domain machines so you can simulate different techniques with their atomics instead.
 
